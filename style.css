@@ -1,0 +1,32 @@
+html{
+    background-color: aqua;   
+}
+*{
+    font-family: 'Muli', sans-serif;
+}
+.container{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    background-color: #dfd7c7;
+}
+label{
+    align-items: flex-end;  
+    padding: 4em;  
+    width: 5px 30px;
+    margin: 2em;
+}
+
+.address, .state, .city, .zip {
+    display: inline-block;
+}
+
+button{
+    align-items: right;
+    background-color: white;
+    color:black;
+    margin: 10px 20px;
+    padding: 10px;
+}
